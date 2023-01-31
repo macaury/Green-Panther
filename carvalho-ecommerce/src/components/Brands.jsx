@@ -15,10 +15,10 @@ function Brands() {
       <Container>
         <Row>
           <div className="text-center">
-            <span>
+            <h2>
               We Collaborate With 250++ Leading Top
               <br /> E Commerce and Brands
-            </span>
+            </h2>
           </div>
         </Row>
         <Row className=" justify-content-center brands_icon">

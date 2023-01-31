@@ -1,5 +1,13 @@
+import React from "react";
+import Container from "react-bootstrap/esm/Container";
+
 function Footer() {
-    return ( <></> );
+  return (
+    <>
+      <Container>
+      </Container>
+    </>
+  );
 }
 
 export default Footer;

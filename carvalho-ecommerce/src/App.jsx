@@ -15,8 +15,8 @@ function App() {
       <Home />
       <Brands />
       <Categories />
-      <Products />
       <SendTypes />
+      <Products />
       <Footer />
     </>
   );
