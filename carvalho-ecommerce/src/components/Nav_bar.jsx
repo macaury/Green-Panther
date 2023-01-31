@@ -6,12 +6,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
+import Logo from "../assets/navbar/Logo.svg"
+
+
 function Nav_bar() {
   return (
     <>
-      <Navbar expand="lg" variant="dark" bg="primary">
+      <Navbar expand="lg" variant="light" bg="light">
         <Container className="justify-content-between">
-          <NavbarBrand>Logo</NavbarBrand>
+          <NavbarBrand><img src={Logo} alt="" /></NavbarBrand>
           <Nav>
             <Nav.Link>Home</Nav.Link>
             <Nav.Link>Products</Nav.Link>
@@ -20,7 +23,7 @@ function Nav_bar() {
             <Nav.Link>Pricing</Nav.Link>
           </Nav>
           <Nav>
-            <Button>Log in</Button>
+            <Button >Log in</Button>
             <Button>Rigister</Button>
           </Nav>
         </Container>
