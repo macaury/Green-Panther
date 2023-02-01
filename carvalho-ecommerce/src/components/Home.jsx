@@ -13,9 +13,9 @@ function Home() {
       <Container>
         <Row className="justify-content-between">
           <Col>
-            <div className="text-center">
-              <span>Best Place to Buy Everything.</span>
-              <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <div>
+              <h1  className="text-center">Best Place to Buy Everything.</h1>
+              <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et.</p>
               <Button>Shopping Now</Button>
             </div>
           </Col>

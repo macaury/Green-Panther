@@ -14,7 +14,7 @@ function SendTypes() {
       <Container>
         <Row>
           <div className="text-center">
-            <h2>Why Choose LoremIpsum?</h2>
+            <h2>Why Choose Green <span style={{color:"#3C9379"}}>Panther</span>?</h2>
           </div>
           <Col>
             <div className="text-center">

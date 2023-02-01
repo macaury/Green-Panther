@@ -14,7 +14,7 @@ function Catergories() {
       <Container id="Categories">
         <Row>
           <div>
-            <span>Browse Categories of The Store</span>
+            <h2>Browse Categories of The Store</h2>
           </div>
         </Row>
         <Row className="justify-content-between">
