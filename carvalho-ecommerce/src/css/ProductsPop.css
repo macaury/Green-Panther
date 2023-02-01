@@ -1,0 +1,8 @@
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}

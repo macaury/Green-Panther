@@ -12,15 +12,15 @@ function Home() {
     <>
       <Container>
         <Row className="justify-content-between">
-          <Col>
-            <div>
-              <h1  className="text-center">Best Place to Buy <span style={{color:"#3C9379"}}>Everything.</span></h1>
+          <Col md="4">
+            <div className="home_box_text">
+              <h1 className="">Best Place to Buy <span style={{color:"#3C9379"}}>Everything.</span></h1>
               <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et.</p>
               <Button className="btn_color">Shopping Now</Button>
             </div>
           </Col>
-          <Col>
-            <div>
+          <Col md="8">
+            <div className="home_image">
               <img src={home_img} />
             </div>
           </Col>

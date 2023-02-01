@@ -1,0 +1,35 @@
+.btn_color {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.home_box_text {
+  width: 100%;
+  display: block;
+
+  margin-top: 5rem;
+}
+
+.home_image img{
+display: block;
+margin-bottom: 80px;
+margin-top: 5rem;
+}
+
+.home_box_text > h1{
+  font-size: 3rem;
+  word-spacing: 5px;
+
+}
+
+.home_box_text > p{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 1.1rem;
+  word-spacing: 2px;
+
+}
+
+.home_box_text > .btn_color {
+  padding: 10px 20px 10px 20px ;
+}
