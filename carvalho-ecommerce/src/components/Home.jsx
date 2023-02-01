@@ -14,9 +14,9 @@ function Home() {
         <Row className="justify-content-between">
           <Col>
             <div>
-              <h1  className="text-center">Best Place to Buy Everything.</h1>
+              <h1  className="text-center">Best Place to Buy <span style={{color:"#3C9379"}}>Everything.</span></h1>
               <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et.</p>
-              <Button>Shopping Now</Button>
+              <Button className="btn_color">Shopping Now</Button>
             </div>
           </Col>
           <Col>

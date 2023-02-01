@@ -2,6 +2,26 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  --primary-color: #3C9379;
+  --secondary-color: #101913;
+  --quaternary-color : #fff;
+}
+.btn_login{
+  background-color: var(--quaternary-color);
+  color: var(--secondary-color);
+  margin: 0 5px 0 0;
+
+  border: none;
+}
+.bg-light{
+  background-color: var(--quaternary-color) !important;
+}
+
+.btn_color{
+  background-color: var(--primary-color);
+  border: none;
+}
 
 .categories_container_card {
   display: grid;
@@ -10,6 +30,8 @@
   gap: 0px 0px;
   grid-auto-flow: row;
 }
+
+
 
 .hor {
   grid-area: 1 / 1 / 2 / 2;
