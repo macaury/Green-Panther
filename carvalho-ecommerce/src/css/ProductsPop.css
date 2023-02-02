@@ -1,10 +1,50 @@
 .carousel::-webkit-scrollbar {
   display: none;
 }
+
 .carousel {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
+  text-decoration: none !important;
+  width: 100%;
+}
+.products_pop_title > h2 {
+  width: 30%;
+  margin-bottom: 30px;
 }
 
+.card-title {
+  color: var(--secondary-color);
+}
+.card-text {
+  color: var(--tertiary-color);
+}
+.image {
+  margin: auto;
+  width: 250px;
+  height: 220px;
+}
 
+.card {
+  width: 18rem;
+  flex: none;
+  padding: 20px;
+  border: 1.5px solid #d9d9d9;
+  border-radius: 30px;
+  margin: 0 0 30px 25px;
+  transition: all 0.8s;
+}
+
+.card > .card-body {
+  text-align: start;
+}
+.card-title:hover {
+  color: var(--primary-color);
+}
+
+.card:hover {
+  border: 1.5px solid var(--primary-color);
+  animation-duration: 0.5s;
+  transition-duration: 0.5s;
+}

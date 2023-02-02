@@ -43,37 +43,41 @@ function Products() {
 
   return (
     <>
-      <Container id="" >
-        <Row>
+      <Container id="products_pop" >
+        <Row className="products_pop_title">
           <h2>Populer Products From All Brands</h2>
         </Row>
         <Row>
           <div className="carousel">
+            <a href="
+            " className="carousel">
+
             {data.map((item) => {
               const { id, name, price, image } = item;
               var price_correct = price.toLocaleString("pt-br", {
                 style: "currency",
                 currency: "BRL",
               });
-
+              
               return (
                 <Card
-                  key={id}
-                  style={{ width: "18rem", border: "none", flex: "none" }}
+                key={id}
+                
                 >
                   <Card.Img
                     className="image"
                     variant="top"
                     src={image}
                     alt={name}
-                  />
-                  <Card.Body>
+                    />
+                  <Card.Body className="justify-content-start">
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{price_correct}</Card.Text>
                   </Card.Body>
                 </Card>
               );
             })}
+            </a>
           </div>
         </Row>
       </Container>
