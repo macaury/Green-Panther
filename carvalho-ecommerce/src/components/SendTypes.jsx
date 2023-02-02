@@ -11,13 +11,18 @@ import foryou from "../assets/SendTypes/foryou.svg";
 function SendTypes() {
   return (
     <>
-      <Container>
+      <Container id="send_type">
         <Row>
-          <div className="text-center">
-            <h2>Why Choose Green <span style={{color:"#3C9379"}}>Panther</span>?</h2>
+          <div className="send_types_title text-center">
+            <h2>
+              Why Choose Green{" "}
+              <span style={{ color: "#3C9379" }}>Panther </span>?
+            </h2>
           </div>
+        </Row>
+        <Row className="send_type_box_card">
           <Col>
-            <div className="text-center">
+            <div className="send_type_card text-center">
               <img src={delivery} alt="" />
               <h4>Free Delivery</h4>
               <span>
@@ -27,7 +32,7 @@ function SendTypes() {
             </div>
           </Col>
           <Col>
-            <div className="text-center">
+            <div className="send_type_card text-center">
               <img src={trusted} alt="" />
               <h4>Trusted Platfrom</h4>
               <span>
@@ -37,7 +42,7 @@ function SendTypes() {
             </div>
           </Col>
           <Col>
-            <div className="text-center">
+            <div className="send_type_card text-center">
               <img src={foryou} alt="" />
               <h4>Here For You</h4>
               <span>

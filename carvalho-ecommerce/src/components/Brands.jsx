@@ -12,21 +12,21 @@ import tokopedia from "../assets/brands/Tokopedia.svg";
 function Brands() {
   return (
     <>
-      <Container>
+      <Container id="brands" >
         <Row>
-          <div className="text-center">
-            <h2>
+          <div className="brands_box_txt text-center">
+            <h3>
               We Collaborate With 250++ Leading Top
               <br /> E Commerce and Brands
-            </h2>
+            </h3>
           </div>
         </Row>
-        <Row className=" justify-content-center brands_icon">
-          <img src={adidas} alt="" />
+        <Row className=" justify-content-center icon_group">
+          <img src={tokopedia} alt="" />
           <img src={balenciaga} alt="" />
+          <img src={adidas} alt="" />
           <img src={bukalapak} alt="" />
           <img src={gucci} alt="" />
-          <img src={tokopedia} alt="" />
         </Row>
       </Container>
     </>

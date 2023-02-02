@@ -24,7 +24,7 @@ function Nav_bar() {
             <Nav.Link className="nav_links">Pricing</Nav.Link>
           </Nav>
           <Nav>
-            <Button className="btn_login">Log in</Button>
+            <Button className="btn_login">Login</Button>
             <Button className="btn_color">Rigister</Button>
           </Nav>
         </Container>

@@ -1,27 +1,65 @@
+.Categories_box_txt {
+  margin: 0 0 30px 0;
+}
+.Categories_box_txt h2 {
+  width: 25%;
+}
 
 .categories_container_card {
-    display: grid;
-    grid-template-columns: 1.2fr 0.9fr 0.9fr;
-    grid-template-rows: 0.8fr 0.8fr 0.5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-  }
-  
-  
-  
-  .hor {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  
-  .hor2 {
-    grid-area: 2 / 1 / 3 / 2;
-  }
-  
-  .ver1 {
-    grid-area: 1 / 2 / 3 / 3;
-  }
-  
-  .ver2 {
-    grid-area: 1 / 3 / 3 / 4;
-  }
-  
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr 0.9fr;
+  grid-template-rows: 0.8fr 0.8fr 0.5fr;
+  gap: 30px 60px;
+  grid-auto-flow: row;
+}
+
+.hor {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.hor2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.ver1 {
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+.ver2 {
+  grid-area: 1 / 3 / 3 / 4;
+}
+
+.categories_card_txt {
+  display: block;
+  position: absolute;
+  color: var(--quaternary-color);
+}
+
+.hor > .categories_card_txt,
+.hor2 > .categories_card_txt {
+  margin: 35px 0 0 23.5rem;
+}
+.ver1 > .categories_card_txt {
+  margin: 35px 0 0 10rem;
+}
+
+.ver2 > .categories_card_txt {
+  margin: 35px 0 0 15rem;
+}
+
+.ver1,
+.ver2,
+.hor,
+.hor2 {
+  transition: all 0.8s;
+}
+
+.ver1:hover,
+.ver2:hover,
+.hor:hover,
+.hor2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  animation-duration: 1ms;
+  transition-duration: 0.8s;
+}

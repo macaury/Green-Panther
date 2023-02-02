@@ -254,5 +254,12 @@
     "price": 199.99,
     "oldPrice": 259.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/95150919.jpg"
+  },
+  {
+    "id" : "0001",
+    "name" : "Samsung Book Intel Core i3 4GB",
+    "price" : 2.60307,
+    "image" : "https://a-static.mlcdn.com.br/800x560/notebook-samsung-book-intel-core-i3-4gb-256gb-ssd-156-full-hd-windows-11-np550xda-kv3br/magazineluiza/233394100/a8dcd2d4e938a2b9886dd586531c92a8.jpg"
   }
+
 ]
