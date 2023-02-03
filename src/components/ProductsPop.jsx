@@ -14,7 +14,7 @@ function Products() {
   const carousel = useRef();
 
   useEffect(() => {
-    fetch("/dist/shoes.json")
+    fetch("https://macaury.github.io/Green-Panther/dist/shoes.json")
       .then((response) => response.json())
       .then(setData);
   }, []);
