@@ -12,11 +12,11 @@ function Footer() {
 
   return (
     <>
-      <Container id="footer" style={{ listStyle: "none" }}>
-        <Row>
+      <Container >
+        <Row id="footer">
           <Col md="4">
             <div>
-              <div className="logo">
+              <div className="logo mb-3 delayExtraBigReveal">
                 {" "}
                 <img src={logo} alt="" />
               </div>
@@ -28,7 +28,7 @@ function Footer() {
           </Col>
           <Col md="2">
             <div>
-              <h4>For Beginner</h4>
+              <h4 className="mb-3">For Beginner</h4>
               <div>
                 <li>About</li>
                 <li>Career</li>
@@ -38,7 +38,7 @@ function Footer() {
           </Col>
           <Col md="2">
             <div>
-              <h4>Overview</h4>
+              <h4 className="mb-3">Overview</h4>
               <div>
                 <li>Categories</li>
                 <li>Product</li>
@@ -48,7 +48,7 @@ function Footer() {
           </Col>
           <Col md="2">
             <div>
-              <h4>Explore Us</h4>
+              <h4 className="mb-3">Explore Us</h4>
               <div>
                 <li>Our Career</li>
                 <li>Privacy</li>
@@ -58,7 +58,7 @@ function Footer() {
           </Col>
           <Col md="2">
             <div>
-              <h4>Connect Us</h4>
+              <h4 className="mb-3">Connect Us</h4>
               <div>
                 <li>supp@lorem.com</li>
                 <li>011 - 222 -333</li>
@@ -69,7 +69,15 @@ function Footer() {
         </Row>
         <Row>
           <div className="copyright text-center ">
-            <h6> &copy; {year} • All right and Design development by Giatinaja | Code developed by <a className="oak" href="https://macaury.github.io/Portifolio/">  {"{OAK}"}</a></h6>
+            <h6>
+              {" "}
+              &copy; {year} • All right and Design development by Giatinaja |
+              Code developed by{" "}
+              <a className="oak" href="https://macaury.github.io/Portifolio/">
+                {" "}
+                {"{OAK}"}
+              </a>
+            </h6>
           </div>
         </Row>
       </Container>

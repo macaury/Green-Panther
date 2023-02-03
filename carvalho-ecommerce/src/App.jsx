@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navbar from "./components/Nav_bar.jsx";
-import Home from './components/Home'
+import Home from "./components/Home";
 import Brands from "./components/Brands";
 import Categories from "./components/Categories";
 import Products from "./components/ProductsPop";

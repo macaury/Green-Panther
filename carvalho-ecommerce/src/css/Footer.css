@@ -1,17 +1,16 @@
-#footer{
-    margin-top: 50px;
-    height: 250px;
-    width: 100%;
+#footer {
+  height: 250px;
+  width: 100%;
+  list-style: none;
 }
 
-
-.copyright{
-
-
+#footer > .col-md-2,
+.col-md-4 {
+  margin: auto;
+  display: block;
 }
 
-
-.oak{
-    text-decoration: none;
-    color: var(--primary-color);
+.oak {
+  text-decoration: none;
+  color: var(--primary-color);
 }

@@ -6,6 +6,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 
+import "./scrollreveals"
+
 import Button from "react-bootstrap/Button";
 
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
@@ -36,11 +38,11 @@ function Products() {
   return (
     <>
       <Container id="products_pop">
-        <Row className="products_pop_title">
+        <Row className="products_pop_title ">
           <h2>Populer Products From All Brands</h2>
         </Row>
         <Row>
-          <div className="carousel" ref={carousel}>
+          <div className="carousel  " ref={carousel}>
             {data.map((item) => {
               const { id, name, price, image } = item;
               var price_correct = price.toLocaleString("pt-br", {

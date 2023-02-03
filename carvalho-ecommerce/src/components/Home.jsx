@@ -5,13 +5,15 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+
+
 import home_img from "../assets/home/StartImage.svg";
 
 function Home() {
   return (
     <>
       <Container>
-        <Row className="justify-content-between">
+        <Row className="justify-content-between  ">
           <Col md="4">
             <div className="home_box_text">
               <h1 className="">Best Place to Buy <span style={{color:"#3C9379"}}>Everything.</span></h1>
@@ -20,7 +22,7 @@ function Home() {
             </div>
           </Col>
           <Col md="8">
-            <div className="home_image">
+            <div className="home_image ">
               <img src={home_img} />
             </div>
           </Col>
