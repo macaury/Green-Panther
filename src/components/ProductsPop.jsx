@@ -5,9 +5,6 @@ import { useState, useEffect, useRef } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
-
-import "./scrollreveals"
-
 import Button from "react-bootstrap/Button";
 
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
@@ -17,7 +14,7 @@ function Products() {
   const carousel = useRef();
 
   useEffect(() => {
-    fetch("/shoes.json")
+    fetch("/dist/shoes.json")
       .then((response) => response.json())
       .then(setData);
   }, []);

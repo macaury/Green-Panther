@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
-import Logo from "../assets/navbar/Logo.svg";
+import Logo from "../assets/navbar/Logo";
 
 function Nav_bar() {
   return (
@@ -14,7 +14,10 @@ function Nav_bar() {
       <Navbar expand="lg" variant="light" bg="light">
         <Container className="justify-content-between">
           <NavbarBrand className="logo">
-            <img src={Logo} alt="Green Panther" />
+            <h3>
+              Green{" "}
+              <span style={{ color: " var(--primary-color)" }}>Panther</span>
+            </h3>
           </NavbarBrand>
           <Nav>
             <Nav.Link className="nav_links">Home</Nav.Link>

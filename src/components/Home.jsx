@@ -5,9 +5,7 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-
-
-import home_img from "../assets/home/StartImage.svg";
+//import home_img from "../assets/home/StartImage";
 
 function Home() {
   return (
@@ -23,7 +21,7 @@ function Home() {
           </Col>
           <Col md="8">
             <div className="home_image ">
-              <img src={home_img} />
+              <div className="img"></div>  
             </div>
           </Col>
         </Row>

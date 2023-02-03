@@ -10,11 +10,20 @@
   margin-top: 5rem;
 }
 
-.home_image img{
+.home_image > .img {
+  background-image: url("../assets/home/Hero_Image.jpg");
+  background-repeat: no-repeat;
+}
+.home_image > .img{
+width: 120%;
+height: 650px;
 display: block;
-margin-bottom: 80px;
-margin-top: 5rem;
-width: 100%;
+margin: auto;
+margin-left: -50px;
+}
+
+.home_image{
+  width: 100%;
 }
 
 .home_box_text > h1{

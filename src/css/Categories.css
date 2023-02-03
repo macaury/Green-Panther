@@ -40,11 +40,11 @@
   margin: 35px 0 0 23.5rem;
 }
 .ver1 > .categories_card_txt {
-  margin: 35px 0 0 10rem;
+  margin: 35px 0 0 15rem;
 }
 
 .ver2 > .categories_card_txt {
-  margin: 35px 0 0 15rem;
+  margin: 35px 0 0 10rem;
 }
 
 .ver1,
@@ -62,4 +62,28 @@
   transform: scale(1.1);
   animation-duration: 1ms;
   transition-duration: 0.8s;
+}
+
+.hor > .img1 {
+  background-image: url("../assets/Categories/image1.jpg");
+  width: 500px;
+  height: 180px;
+}
+
+.hor2 > .img2 {
+  background-image: url("../assets/Categories/image2.png");
+  width: 500px;
+  height: 180px;
+}
+
+.ver1 > .img4 {
+  background-image: url("../assets/Categories/image4.jpg");
+  width: 361px;
+  height: 386px;
+}
+
+.ver2 > .img3 {
+  background-image: url("../assets/Categories/image3.jpg");
+width: 287px;
+  height: 386px;
 }

@@ -4,9 +4,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import delivery from "../assets/SendTypes/delivery.svg";
-import trusted from "../assets/SendTypes/trusted.svg";
-import foryou from "../assets/SendTypes/foryou.svg";
+import delivery from "../assets/SendTypes/delivery";
+import trusted from "../assets/SendTypes/trusted";
+import foryou from "../assets/SendTypes/foryou";
 
 function SendTypes() {
   return (

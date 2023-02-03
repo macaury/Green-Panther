@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-import logo from "../assets/navbar/Logo.svg";
+import logo from "../assets/navbar/Logo";
 
 function Footer() {
   const dataAtual = new Date();
@@ -12,13 +12,18 @@ function Footer() {
 
   return (
     <>
-      <Container >
+      <Container>
         <Row id="footer">
           <Col md="4">
             <div>
               <div className="logo mb-3 delayExtraBigReveal">
-                {" "}
-                <img src={logo} alt="" />
+      
+                <h3>
+                  Green{" "}
+                  <span style={{ color: " var(--primary-color)" }}>
+                    Panther
+                  </span>
+                </h3>
               </div>
               <h6>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

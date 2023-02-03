@@ -1,18 +1,38 @@
+.icon_group div {
+  display: block;
+  width: 215px;
+  height: 40px;
+  margin: auto;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.icon_group > .adidas {
+  background-image: url("../assets/brands/adidas.jpg");
+  width: 160px;
+  margin-bottom: 10px !important ;
+}
+
+.icon_group > .balenciaga {
+  background-image: url("../assets/brands/Balenciaga.jpg");
+}
+.icon_group > .bukalapak {
+  background-image: url("../assets/brands/Bukalapak.jpg");
+}
+
+.icon_group > .gucci {
+  background-image: url("../assets/brands/gucci.jpg");
+}
+.icon_group > .tokopedia {
+  background-image: url("../assets/brands/Tokopedia.jpg");
+}
 #brands {
   padding: 10px;
 }
-
 .brands_box_txt {
-  margin: 80px 0 0 0 ;
-
+  margin: 80px 0 0 0;
 }
 
-.icon_group img {
-  width: 204px;
-  height: 45px;
-  margin: auto;
-}
-
-.icon_group{
-  margin: 60px 0 80px 0; 
+.icon_group {
+  margin: 60px 0 80px 0;
 }
