@@ -1,3 +1,9 @@
+
+#home {
+  padding-top: 50px;
+
+}
+
 .btn_color {
   background-color: var(--primary-color);
   border: none;
@@ -6,7 +12,6 @@
 .home_box_text {
   width: 100%;
   display: block;
-
   margin-top: 5rem;
 }
 
@@ -15,11 +20,11 @@
   background-repeat: no-repeat;
 }
 .home_image > .img{
-width: 120%;
+width: 900px;
 height: 650px;
 display: block;
 margin: auto;
-margin-left: -50px;
+margin-right: 0 -70px 0 -70px;
 }
 
 .home_image{

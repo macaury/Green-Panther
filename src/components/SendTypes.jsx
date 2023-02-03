@@ -4,9 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import delivery from "../assets/SendTypes/delivery";
-import trusted from "../assets/SendTypes/trusted";
-import foryou from "../assets/SendTypes/foryou";
+
 
 function SendTypes() {
   return (
@@ -23,7 +21,7 @@ function SendTypes() {
         <Row className="send_type_box_card">
           <Col>
             <div className="send_type_card text-center">
-              <img src={delivery} alt="" />
+              <div className="delivery"></div>
               <h4>Free Delivery</h4>
               <span>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do
@@ -33,7 +31,7 @@ function SendTypes() {
           </Col>
           <Col>
             <div className="send_type_card text-center">
-              <img src={trusted} alt="" />
+              <div className="trusted"></div>
               <h4>Trusted Platfrom</h4>
               <span>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do
@@ -43,7 +41,7 @@ function SendTypes() {
           </Col>
           <Col>
             <div className="send_type_card text-center">
-              <img src={foryou} alt="" />
+              <div className="foryou"></div>
               <h4>Here For You</h4>
               <span>
                 Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do

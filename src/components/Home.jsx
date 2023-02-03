@@ -10,7 +10,7 @@ import Col from "react-bootstrap/Col";
 function Home() {
   return (
     <>
-      <Container>
+      <Container id="home">
         <Row className="justify-content-between  ">
           <Col md="4">
             <div className="home_box_text">

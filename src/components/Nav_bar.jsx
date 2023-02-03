@@ -11,7 +11,7 @@ import Logo from "../assets/navbar/Logo";
 function Nav_bar() {
   return (
     <>
-      <Navbar expand="lg" variant="light" bg="light">
+      <Navbar id="nav_bar" expand="lg" variant="light" bg="light">
         <Container className="justify-content-between">
           <NavbarBrand className="logo">
             <h3>
