@@ -12,7 +12,7 @@ function Footer() {
 
   return (
     <>
-      <Container style={{ listStyle: "none" }}>
+      <Container id="footer" style={{ listStyle: "none" }}>
         <Row>
           <Col md="4">
             <div>
@@ -68,8 +68,8 @@ function Footer() {
           </Col>
         </Row>
         <Row>
-          <div className="text-center">
-            <h6> &copy; {year} • All right and Design development by Giatinaja | Code developed by {"{OAK}"}</h6>
+          <div className="copyright text-center ">
+            <h6> &copy; {year} • All right and Design development by Giatinaja | Code developed by <a className="oak" href="https://macaury.github.io/Portifolio/">  {"{OAK}"}</a></h6>
           </div>
         </Row>
       </Container>

@@ -11,26 +11,20 @@ import Button from "react-bootstrap/Button";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 function Products() {
-  const price = 2999.0;
-  var price_correct = price.toLocaleString("pt-br", {
-    style: "currency",
-    currency: "BRL",
-  });
-
   const [data, setData] = useState([]);
-  const carousel = useRef(null);
+  const carousel = useRef();
 
   useEffect(() => {
-    fetch("./public/shoes.json")
+    fetch("/shoes.json")
       .then((response) => response.json())
       .then(setData);
   }, []);
 
   const handleLeftClick = (e) => {
     e.preventDefault();
+
     carousel.current.scrollLeft -= carousel.current.offsetWidth;
   };
-
   const handleRightClick = (e) => {
     e.preventDefault();
 
@@ -46,43 +40,39 @@ function Products() {
           <h2>Populer Products From All Brands</h2>
         </Row>
         <Row>
-          <div className="carousel">
-            <a
-              href="
-            "
-              className="carousel"
-            >
-              {data.map((item) => {
-                const { id, name, price, image } = item;
-                var price_correct = price.toLocaleString("pt-br", {
-                  style: "currency",
-                  currency: "BRL",
-                });
+          <div className="carousel" ref={carousel}>
+            {data.map((item) => {
+              const { id, name, price, image } = item;
+              var price_correct = price.toLocaleString("pt-br", {
+                style: "currency",
+                currency: "BRL",
+              });
 
-                return (
-                  <Card key={id}>
-                    <Card.Img
-                      className="image"
-                      variant="top"
-                      src={image}
-                      alt={name}
-                    />
-                    <Card.Body className="justify-content-start">
-                      <Card.Title>{name}</Card.Title>
-                      <Card.Text>{price_correct}</Card.Text>
-                    </Card.Body>
-                  </Card>
-                );
-              })}
-            </a>
-            <div className="buttons">
-              <Button>
-                <FiChevronLeft onClick={handleLeftClick} />
-              </Button>
-              <Button>
-                <FiChevronRight onClick={handleRightClick} />
-              </Button>
-            </div>
+              return (
+                <Card key={id}>
+                  <Card.Img
+                    className="image"
+                    variant="top"
+                    src={image}
+                    alt={name}
+                  />
+                  <Card.Body className="justify-content-start">
+                    <Card.Title>{name}</Card.Title>
+                    <Card.Text>{price_correct}</Card.Text>
+                  </Card.Body>
+                </Card>
+              );
+            })}
+          </div>
+        </Row>
+        <Row>
+          <div className="buttons">
+            <Button onClick={handleLeftClick}>
+              <FiChevronLeft />
+            </Button>
+            <Button onClick={handleRightClick}>
+              <FiChevronRight />
+            </Button>
           </div>
         </Row>
       </Container>

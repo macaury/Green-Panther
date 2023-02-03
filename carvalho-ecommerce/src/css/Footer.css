@@ -1,0 +1,17 @@
+#footer{
+    margin-top: 50px;
+    height: 250px;
+    width: 100%;
+}
+
+
+.copyright{
+
+
+}
+
+
+.oak{
+    text-decoration: none;
+    color: var(--primary-color);
+}

@@ -15,19 +15,29 @@
 }
 
 .card-title {
+  margin-top: 20px;
+  height: 60px;
   color: var(--secondary-color);
 }
 .card-text {
-  color: var(--tertiary-color);
+  margin-top: auto;
+  color: var(--quaternary-color);
+  background-color: var(--primary-color);
+  border: 1px solid white;
+  border-radius: 30px;
+  text-align: center;
+  width: 100%;
 }
 .image {
+  margin-top: 20px !important;
   margin: auto;
-  width: 250px;
-  height: 220px;
+  width: 200px;
+  height: 180px;
 }
 
 .card {
   width: 18rem;
+  height: 25rem;
   flex: none;
   padding: 20px;
   border: 1.5px solid #d9d9d9;
@@ -39,12 +49,37 @@
 .card > .card-body {
   text-align: start;
 }
-.card-title:hover {
-  color: var(--primary-color);
-}
 
 .card:hover {
   border: 1.5px solid var(--primary-color);
   animation-duration: 0.5s;
   transition-duration: 0.5s;
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+
+}
+
+.buttons > button {
+  border: none;
+  margin: 10px;
+  background: transparent;
+  color: var(--primary-color);
+  
+
+}
+.buttons > button > svg {
+  width: 40px;
+  height: 40px;
+}
+
+.buttons > button:hover {
+  color: var(--quaternary-color);
+  background-color: var(--primary-color);
+  animation-duration: 0.5s;
+  transition-duration: 0.5s;
+
 }
