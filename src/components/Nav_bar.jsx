@@ -6,7 +6,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
-import Logo from "../assets/navbar/Logo";
 
 function Nav_bar() {
   return (

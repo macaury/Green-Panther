@@ -4,7 +4,6 @@ import Container from "react-bootstrap/esm/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-import logo from "../assets/navbar/Logo";
 
 function Footer() {
   const dataAtual = new Date();

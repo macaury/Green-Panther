@@ -5,10 +5,6 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-//import home_img from "../assets/home/StartImage";
-
-//import { Start } from '../assets/home/start';
-
 function Home() {
   return (
     <>

@@ -49,16 +49,17 @@ function Products() {
 
               return (
                 <Card key={id}>
-                  <Card.Img
-                    className="image"
-                    variant="top"
-                    src={image}
-                    alt={name}
-                  />
-                  <Card.Body className="justify-content-start">
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>{price_correct}</Card.Text>
-                  </Card.Body>
+                    <Card.Img
+                      className="image"
+                      variant="top"
+                      src={image}
+                      alt={name}
+                    />
+
+                    <Card.Body className="justify-content-start">
+                      <Card.Title>{name}</Card.Title>
+                      <Card.Text>{price_correct}</Card.Text>
+                    </Card.Body>
                 </Card>
               );
             })}

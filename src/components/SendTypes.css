@@ -1,0 +1,41 @@
+.send_type_card > .delivery {
+    background-image: url("../assets/SendTypes/delivery.svg");
+}
+
+.send_type_card > .trusted {
+    background-image: url("../assets/SendTypes/trusted.svg");
+}
+
+.send_type_card > .foryou {
+    background-image: url("../assets/SendTypes/foryou.svg");
+}
+
+.send_type_card > div{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+
+
+.send_type_box_card{
+    margin: 0 0 80px 0 ;
+}
+
+.send_types_title{
+    margin: 0 0 60px 0;
+}
+
+
+.send_type_card{
+    padding: 0 15px 0 15px;
+}
+
+.send_type_card > span{
+    text-align: justify ;
+}
+
+.send_type_card > img{
+    margin-bottom: 20px;
+}

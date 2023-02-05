@@ -1,0 +1,16 @@
+#footer {
+  height: 250px;
+  width: 100%;
+  list-style: none;
+}
+
+#footer > .col-md-2,
+.col-md-4 {
+  margin: auto;
+  display: block;
+}
+
+.oak {
+  text-decoration: none;
+  color: var(--primary-color);
+}

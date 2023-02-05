@@ -1,17 +1,23 @@
 [
-  
   {
-    "id" : "0001",
-    "name" : "Samsung Book Intel Core i3 4GB",
-    "price" : 2603.07,
-    "image" : "https://a-static.mlcdn.com.br/800x560/notebook-samsung-book-intel-core-i3-4gb-256gb-ssd-156-full-hd-windows-11-np550xda-kv3br/magazineluiza/233394100/a8dcd2d4e938a2b9886dd586531c92a8.jpg"
-  }
-,  {
+    "id": "0001",
+    "name": "Samsung Book Intel Core i3 4GB",
+    "price": 2603.07,
+    "image": "https://a-static.mlcdn.com.br/800x560/notebook-samsung-book-intel-core-i3-4gb-256gb-ssd-156-full-hd-windows-11-np550xda-kv3br/magazineluiza/233394100/a8dcd2d4e938a2b9886dd586531c92a8.jpg"
+  },
+  {
     "id": "94313731",
-    "name": "Tênis Nike Revolution 5 Max" ,
+    "name": "Tênis Nike Revolution 5 Max",
     "price": 249.99,
     "oldPrice": 349.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+  },
+  {
+    "id": "155614100",
+    "name": "iPhone 11 Apple 64GB Branco 6,1” 12MP iOS",
+    "price": 2969.1,
+    "oldPrice": 4761.9,
+    "image": "https://a-static.mlcdn.com.br/800x560/iphone-11-apple-64gb-branco-61-12mp-ios/magazineluiza/155614100/af1cd7d9c89d7306b52490a0ce1b8b34.jpg"
   },
   {
     "id": "94313762",
@@ -20,8 +26,8 @@
     "oldPrice": 349.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/94313762.jpg"
   },
-  
-  { 
+
+  {
     "id": "943137XQ",
     "name": "Tênis Nike Revolution 5",
     "price": 249.99,
@@ -112,7 +118,7 @@
     "oldPrice": 179.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/93828502.jpg"
   },
-  
+
   {
     "id": "95150929",
     "name": "Tênis Asics Patriot 12",
@@ -148,7 +154,7 @@
     "oldPrice": 379.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/95876431.jpg"
   },
- 
+
   {
     "id": "95707845",
     "name": "Tênis Mizuno Wave Prophecy X",
@@ -247,7 +253,7 @@
     "oldPrice": 349.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/94313703.jpg"
   },
-  
+
   {
     "id": "93761902",
     "name": "Tênis Oakley Modoc 2.0",
@@ -262,5 +268,4 @@
     "oldPrice": 259.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/95150919.jpg"
   }
-
 ]
