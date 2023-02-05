@@ -21,7 +21,7 @@ function Home() {
               <Button className="btn_color">Shopping Now</Button>
             </div>
           </Col>
-          <Col md="8">
+          <Col md="7">
             <div className="home_image ">
               <div className="img"></div>
             </div>
