@@ -45,6 +45,7 @@
   margin: 0 0 30px 25px;
   transition: all 0.8s;
   cursor: pointer;
+  position: inherit;
 }
 
 .card > .card-body {
