@@ -15,10 +15,12 @@
   margin-top: 5rem;
 }
 
+
 .home_image > .img {
-  background-image: url("../assets/home/Hero_Image.jpg");
+  background-image: url("../assets/home/HeroImage.svg");
   background-repeat: no-repeat;
 }
+
 .home_image > .img{
 width: 900px;
 height: 650px;
