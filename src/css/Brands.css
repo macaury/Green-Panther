@@ -8,23 +8,22 @@
 }
 
 .icon_group > .adidas {
-  background-image: url("../assets/brands/adidas.jpg");
-  width: 160px;
-  margin-bottom: 10px !important ;
+  background-image: url("../assets/brands/adidas.svg");
+
 }
 
 .icon_group > .balenciaga {
-  background-image: url("../assets/brands/Balenciaga.jpg");
+  background-image: url("../assets/brands/Balenciaga.svg");
 }
 .icon_group > .bukalapak {
-  background-image: url("../assets/brands/Bukalapak.jpg");
+  background-image: url("../assets/brands/Bukalapak.svg");
 }
 
 .icon_group > .gucci {
-  background-image: url("../assets/brands/gucci.jpg");
+  background-image: url("../assets/brands/gucci.svg");
 }
 .icon_group > .tokopedia {
-  background-image: url("../assets/brands/Tokopedia.jpg");
+  background-image: url("../assets/brands/Tokopedia.svg");
 }
 #brands {
   padding: 10px;
