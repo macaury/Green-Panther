@@ -2,31 +2,11 @@
   margin: 0 0 30px 0;
 }
 .Categories_box_txt h2 {
-  width: 25%;
+  width: 350px;
 }
-
-.categories_container_card {
-  display: grid;
-  grid-template-columns: 1.2fr 0.9fr 0.9fr;
-  grid-template-rows: 0.8fr 0.8fr 0.5fr;
-  gap: 30px 60px;
-  grid-auto-flow: row;
-}
-
-.hor {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-.hor2 {
-  grid-area: 2 / 1 / 3 / 2;
-}
-
-.ver1 {
-  grid-area: 1 / 2 / 3 / 3;
-}
-
-.ver2 {
-  grid-area: 1 / 3 / 3 / 4;
+.categories_container_card{
+  width: 100%;
+  display: flex;
 }
 
 .categories_card_txt {
@@ -34,17 +14,9 @@
   position: absolute;
   color: var(--quaternary-color);
 }
-
 .hor > .categories_card_txt,
-.hor2 > .categories_card_txt {
-  margin: 35px 0 0 23.5rem;
-}
-.ver1 > .categories_card_txt {
-  margin: 35px 0 0 15rem;
-}
-
-.ver2 > .categories_card_txt {
-  margin: 35px 0 0 10rem;
+.hor2 > .categories_card_txt,.ver1 > .categories_card_txt ,.ver2 > .categories_card_txt{
+  margin: 35px 0 0 25rem;
 }
 
 .ver1,
@@ -52,6 +24,8 @@
 .hor,
 .hor2 {
   transition: all 0.8s;
+  margin: 20px;
+  
 }
 
 .ver1:hover,
@@ -64,10 +38,14 @@
   transition-duration: 0.8s;
 }
 
+
+
+
 .hor > .img1 {
   background-image: url("../assets/Categories/image1.svg");
   width: 500px;
   height: 180px;
+ 
 }
 
 .hor2 > .img2 {
@@ -78,12 +56,27 @@
 
 .ver1 > .img4 {
   background-image: url("../assets/Categories/image4.svg");
-  width: 361px;
-  height: 386px;
+  width: 500px;
+  height: 180px;
 }
 
 .ver2 > .img3 {
   background-image: url("../assets/Categories/image3.svg");
-width: 287px;
-  height: 386px;
+  width: 500px;
+  height: 180px;
+}
+
+.hor > .img1 , .hor2 > .img2, .ver1 > .img4 , .ver2 > .img3{
+  display: block;
+  margin: auto;
+}
+
+
+/*Mobile CSS*/
+
+@media screen and (max-width: 1000px) {
+  .categories_container_card {
+    display: block;
+  }
+
 }

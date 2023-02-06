@@ -50,3 +50,28 @@ margin-right: 0 -70px 0 -70px;
 .home_box_text > .btn_color {
   padding: 10px 20px 10px 20px ;
 }
+
+
+
+
+/* Mobile CSS*/
+
+@media screen and (max-width: 1000px) {
+  #home > .row{
+    margin-top: 80px;
+  }
+
+  .home_image > .img {
+    display: none;
+  }
+  .home_box_text {
+    width: 25rem;
+    display: block;
+    margin: auto !important;
+    text-align: center;
+  }
+  .home_box_text > .btn_color {
+    display: block;
+    margin: auto;
+  }
+}

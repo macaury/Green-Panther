@@ -1,7 +1,6 @@
 #nav_bar {
   position: fixed;
   width: 100%;
-
   -webkit-box-shadow: 0px 13px 20px -17px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0px 13px 20px -17px rgba(0, 0, 0, 0.26);
   box-shadow: 0px 13px 20px -17px rgba(0, 0, 0, 0.26);
@@ -39,4 +38,47 @@
   border-bottom: 1px solid var(--primary-color);
   animation-duration: 0.8s;
   transition-duration: 0.8s;
+}
+
+/* Mobile CSS*/
+
+@media screen and (max-width: 1000px) {
+  #nav_bar{
+    height: 80px;
+  }
+  #nav_bar > .logo{
+    display: block;
+    margin: auto;
+  }
+
+  .nav_links_box  {
+    display: block;
+    position: absolute !important;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    left: 0;
+    top: 70px;
+    transition: all 0.5 ease-out;
+  }
+.nav_links_box > .nav_links{
+  color: var(--quaternary-color);
+  margin: 10px 0;
+}
+
+   .login_menu{
+    width: 100%;
+    display: flex;
+    margin: 0 5px ;
+  }
+.login_menu > .menu{
+  display: block;
+  margin: auto;
+  width: 45px;
+  height: 30px;
+  color: var(--primary-color);
+}
+
+
 }

@@ -4,6 +4,7 @@
 
 .carousel {
   display: flex;
+  position: inherit;
   overflow-x: auto;
   scroll-behavior: smooth;
   text-decoration: none !important;
@@ -12,6 +13,19 @@
 .products_pop_title > h2 {
   width: 30%;
   margin-bottom: 30px;
+}
+
+.card {
+  display:inherit !important;
+  width: 18rem;
+  height: 25rem;
+  flex: none;
+  padding: 20px;
+  border: 1.5px solid #d9d9d9;
+  border-radius: 30px;
+  margin: 0 0 30px 25px;
+  transition: all 0.8s;
+  cursor: pointer;
 }
 
 .card-title {
@@ -31,21 +45,8 @@
 .image {
   margin-top: 20px !important;
   margin: auto;
-  width: 200px;
+  width: 250px;
   height: 180px;
-}
-
-.card {
-  width: 18rem;
-  height: 25rem;
-  flex: none;
-  padding: 20px;
-  border: 1.5px solid #d9d9d9;
-  border-radius: 30px;
-  margin: 0 0 30px 25px;
-  transition: all 0.8s;
-  cursor: pointer;
-  position: inherit;
 }
 
 .card > .card-body {
@@ -62,7 +63,6 @@
   width: 100%;
   text-align: center;
   transition: all 0.5s;
-
 }
 
 .buttons > button {
@@ -70,8 +70,6 @@
   margin: 10px;
   background: transparent;
   color: var(--primary-color);
-  
-
 }
 .buttons > button > svg {
   width: 40px;
@@ -83,5 +81,4 @@
   background-color: var(--primary-color);
   animation-duration: 0.5s;
   transition-duration: 0.5s;
-
 }
