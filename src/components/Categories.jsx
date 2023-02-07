@@ -19,23 +19,23 @@ function Catergories() {
         <Row className="categories_container_card ">
           <Col  lg="6" md="2" xs="5" >
             <div class="card_categories">
-              <img src="https://github.com/macaury/Green-Panther/blob/main/dist/assets/image2.png?raw=true" alt=""   className="img_cate"/>
+              <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image2.png?raw=true" alt=""   className="img_cate"/>
             </div>
           </Col>
           <Col  lg="6" md="2" xs="5">
             <div class="card_categories ">
-              <img src="https://github.com/macaury/Green-Panther/blob/main/dist/assets/image.png?raw=true"alt="" className="img_cate" />
+              <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image.png?raw=true"alt="" className="img_cate" />
             </div>
           </Col>
 
           <Col col="3" lg="6" md="2"  xs="5">
             <div class="card_categories ">
-              <img src="https://github.com/macaury/Green-Panther/blob/main/dist/assets/image3.png?raw=true" alt=""  className="img_cate"/>
+              <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image3.png?raw=true" alt=""  className="img_cate"/>
             </div>
           </Col>
           <Col col="3" lg="6" md="2" xs="5">
             <div class="card_categories">
-              <img src="https://github.com/macaury/Green-Panther/blob/main/dist/assets/image4.png?raw=true" alt=""  className="img_cate" />
+              <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image4.png?raw=true" alt=""  className="img_cate" />
             </div>
           </Col>
         </Row>
