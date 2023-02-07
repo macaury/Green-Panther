@@ -1,67 +1,22 @@
-
 .Categories_box_txt h2 {
   width: 350px;
 }
-.categories_container_card{
+.categories_container_card {
   width: 100%;
   display: flex;
 }
 
-
-
-.ver1,
-.ver2,
-.hor,
-.hor2 {
+.card_categories {
   transition: all 0.8s;
-  margin: 20px;
-  
+  margin: 20px 0;
 }
 
-.ver1:hover,
-.ver2:hover,
-.hor:hover,
-.hor2:hover {
+.card_categories:hover {
   cursor: pointer;
   transform: scale(1.1);
   animation-duration: 1ms;
   transition-duration: 0.8s;
 }
-.img1 ,.img2,.img3,.img4{
-  width: 500px;
-  height: 180px;
-}
-
-
-
-
-.hor > .img1 {
-  background-image: url("../assets/Categories/image1.svg");
-
- 
-}
-
-.hor2 > .img2 {
-  background-image: url("../assets/Categories/image2.svg");
-  
-}
-
-.ver1 > .img4 {
-  background-image: url("../assets/Categories/image4.svg");
-
-}
-
-.ver2 > .img3 {
-  background-image: url("../assets/Categories/image3.svg");
-  width: 500px;
-  height: 180px;
-}
-
-.hor > .img1 , .hor2 > .img2, .ver1 > .img4 , .ver2 > .img3{
-  display: block;
-  margin: auto;
-}
-
 
 /*Mobile CSS*/
 
@@ -69,16 +24,16 @@
   .categories_container_card {
     display: block;
     margin: auto;
-    margin-left: 60px !important;
   }
-
-
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
 
-  .categories_container_card {
-    margin-left: 0 ;
-    display: none;
+
+  .img_cate {
+    text-align: center;
+    margin: 0 0 0 35px;
+    width: 300px !important;
+    height: 120px !important;
   }
 }

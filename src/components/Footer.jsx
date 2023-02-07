@@ -12,7 +12,7 @@ function Footer() {
     <>
       <Container className="py-5 mt-5">
         <Row id="footer py-5 ">
-          <Col lg="3"  mb="2">
+          <Col lg="3"  mb="2" xs="11">
             <div className="about">
               <div className="logo mb-3 ">
                 <h3>
@@ -28,7 +28,7 @@ function Footer() {
               </h6>
             </div>
           </Col>
-          <Col col="6" lg="2" md="3" className="offset-lg-1">
+          <Col col="6" lg="2" md="3" xs="6" className="offset-lg-1">
             <div>
               <h4 className="mb-3">For Beginner</h4>
               <ul className="list-unstyled">
@@ -38,7 +38,7 @@ function Footer() {
               </ul>
             </div>
           </Col>
-          <Col col="6" lg="2" md="3">
+          <Col col="6" lg="2" md="3" xs="5">
             <div>
               <h4 className="mb-3">Overview</h4>
               <div>
@@ -50,7 +50,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          <Col col="6" lg="2" md="3">
+          <Col col="6" lg="2" md="3" xs="6">
             <div>
               <h4 className="mb-3">Explore Us</h4>
               <ul className="list-unstyled">
@@ -60,7 +60,7 @@ function Footer() {
               </ul>
             </div>
           </Col>
-          <Col col="6" lg="2" md="3">
+          <Col col="6" lg="2" md="3" xs="5">
             <div>
               <h4 className="mb-3">Connect Us</h4>
               <ul className="list-unstyled">

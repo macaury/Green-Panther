@@ -19,7 +19,7 @@ function SendTypes() {
           </div>
         </Row>
         <Row className="send_type_box_card">
-          <Col>
+          <Col sm="4">
             <div className="send_type_card text-center">
               <div className="delivery"></div>
               <h4>Free Delivery</h4>
@@ -29,7 +29,7 @@ function SendTypes() {
               </span>
             </div>
           </Col>
-          <Col>
+          <Col sm="4">
             <div className="send_type_card text-center">
               <div className="trusted"></div>
               <h4>Trusted Platfrom</h4>
@@ -39,7 +39,7 @@ function SendTypes() {
               </span>
             </div>
           </Col>
-          <Col>
+          <Col sm="4">
             <div className="send_type_card text-center">
               <div className="foryou"></div>
               <h4>Here For You</h4>

@@ -1,7 +1,6 @@
 
 #home {
   padding-top: 50px;
-
 }
 
 .btn_color {
@@ -74,4 +73,13 @@ margin-right: 0 -70px 0 -70px;
     display: block;
     margin: auto;
   }
+}
+
+
+@media screen and (max-width: 425px) {
+
+.home_box_text{
+  padding: 20px;
+
+}
 }

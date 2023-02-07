@@ -37,4 +37,7 @@
 
 @media screen and (max-width: 425px) {
 
+  #brands > .row {
+    width: 100%;
+  }
 }
