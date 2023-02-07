@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 function Brands() {
   return (
     <>
-      <Container id="brands">
+      <Container id="brands" mt="4">
         <Row>
           <div className="brands_box_txt text-center">
             <h3>
@@ -16,11 +16,11 @@ function Brands() {
           </div>
         </Row>
         <Row className=" icon_group">
-          <div className="adidas"></div>
-          <div className="balenciaga"></div>
-          <div className="bukalapak"></div>
-          <div className="gucci"></div>
-          <div className="tokopedia"></div>
+          <div className="adidas mb-3"></div>
+          <div className="balenciaga mb-3"></div>
+          <div className="bukalapak mb-3"></div>
+          <div className="gucci mb-3"></div>
+          <div className="tokopedia "></div>
         </Row>
       </Container>
     </>

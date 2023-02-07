@@ -30,7 +30,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 $ git clone https://github.com/macaury/Green-Panther.git
 
 # Go into the repository
-$ cd carvalho-ecommerce
+$ cd E-commerce
 
 # Install dependencies
 $ npm install
