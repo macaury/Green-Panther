@@ -1,11 +1,11 @@
 # Green Panther
 
 <h1 align="center">
-  <br>
-  <a href="https://macaury.github.io/Green-Panther/"><img src="https://user-images.githubusercontent.com/64115668/217147476-87e57149-c6d0-41f2-8e1e-6b1bba761654.svg" alt="Green Panther" width="250"></a>
-  <br>
-Visite o Projeto
-  <br>
+  </br>
+  
+  <a href="https://macaury.github.io/Green-Panther/">
+  <img src="https://user-images.githubusercontent.com/64115668/217147476-87e57149-c6d0-41f2-8e1e-6b1bba761654.svg" alt="Green Panther" width="250">
+  </a>
 </h1>
 
 <h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
