@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   word-spacing: 4px;
+  font-family: "Archivo", sans-serif;
 }
-:root{
-  --primary-color: #3C9379;
+:root {
+  --primary-color: #3c9379;
   --secondary-color: #101913;
-  --tertiary-color: #535A56;
-  --quaternary-color : #fff;
+  --tertiary-color: #535a56;
+  --quaternary-color: #fff;
 }
