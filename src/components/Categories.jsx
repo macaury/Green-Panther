@@ -17,23 +17,23 @@ function Catergories() {
           </div>
         </Row>
         <Row className="categories_container_card ">
-          <Col  lg="6" md="2" xs="5" >
+          <Col  lg="7" md="2" xs="5" >
             <div class="card_categories">
               <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image2.png?raw=true" alt=""   className="img_cate"/>
             </div>
           </Col>
-          <Col  lg="6" md="2" xs="5">
+          <Col  lg="5" md="2" xs="5">
             <div class="card_categories ">
               <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image.png?raw=true"alt="" className="img_cate" />
             </div>
           </Col>
 
-          <Col col="3" lg="6" md="2"  xs="5">
+          <Col  lg="7" md="2"  xs="5">
             <div class="card_categories ">
               <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image3.png?raw=true" alt=""  className="img_cate"/>
             </div>
           </Col>
-          <Col col="3" lg="6" md="2" xs="5">
+          <Col  lg="5" md="2" xs="5">
             <div class="card_categories">
               <img src="https://github.com/macaury/Green-Panther/blob/main/src/assets/Categories/image4.png?raw=true" alt=""  className="img_cate" />
             </div>
